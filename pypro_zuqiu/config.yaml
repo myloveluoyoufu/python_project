@@ -1,0 +1,18 @@
+mysql:
+  mysql_local:
+    host: 127.0.0.1
+    port: 3306
+    user: root
+    password: '123456'
+    db: zuqiu
+    charset: utf8
+  mysql_aliyun:
+    host:
+    port:
+    user: root
+    password:
+    db: choice
+    charset: utf8
+
+mysql_connect: mysql_local
+
